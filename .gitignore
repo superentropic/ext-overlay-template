@@ -1,0 +1,67 @@
+# Build artifacts
+build/
+build-*/
+bin/
+out/
+cmake-build-*/
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+
+# IDE / Editor
+.vs/
+.vscode/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.sdf
+*.opensdf
+.idea/
+*.swp
+*~
+
+# Runtime artifacts
+*.log
+dad_launcher_layout.ini
+nul
+
+# vcpkg installed packages (managed by vcpkg, not committed)
+vcpkg_installed/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# User-specific config (template is committed as config/settings.example.json)
+config/settings.json
+
+# User-specific scripts (contain hardcoded local paths)
+create_shortcut.ps1
+tools/build_inject.bat
+
+# Third-party tool binaries
+tools/gspots/*.exe
+tools/dumper7/build/
+tools/proton-inject
+dumps/
+
+# Kernel module build output
+kernel_driver/*.o
+kernel_driver/*.ko
+kernel_driver/*.mod
+kernel_driver/*.mod.c
+kernel_driver/.*.cmd
+kernel_driver/modules.order
+kernel_driver/Module.symvers
+
+# Local agent files and personal conversation logs
+.agents/
+docs/conversations/

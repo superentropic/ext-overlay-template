@@ -1,0 +1,15 @@
+# Normalize line endings for cross-platform consistency
+* text=auto eol=crlf
+
+# Force LF for scripts (Python, shell)
+*.py text eol=lf
+*.sh text eol=lf
+
+# Binary files
+*.exe binary
+*.dll binary
+*.lib binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.gif binary

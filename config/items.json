@@ -1,0 +1,8 @@
+{
+  "_comment": "Item database - map class names to display info. Populate from SDK dump.",
+  "BP_Item_Sword_Example": {
+    "displayName": "Longsword",
+    "rarity": 2,
+    "category": "Weapon"
+  }
+}

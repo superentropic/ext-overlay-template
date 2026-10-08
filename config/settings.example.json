@@ -1,0 +1,40 @@
+{
+  "filter": {
+    "showPlayers": true,
+    "showLoot": true,
+    "showNPCs": true,
+    "showPortals": true,
+    "showCorpses": true,
+    "maxDistance": 300.0,
+    "maxPlayerDistance": 1000.0,
+    "minLootRarity": 3,
+    "minMonsterGrade": 0,
+    "showHealthBars": true,
+    "showDamageNumbers": true,
+    "showDistance": true,
+    "showSnapLines": false
+  },
+  "visuals": {
+    "playerColor": [1.0, 0.2, 0.2, 1.0],
+    "teamColor": [0.2, 0.55, 1.0, 1.0],
+    "npcColor": [1.0, 1.0, 0.2, 1.0],
+    "fontSize": 15.0,
+    "boxStyle": 0,
+    "radarRadius": 140.0,
+    "radarRangeMeters": 100.0
+  },
+  "updateRateFps": 144,
+  "toggleMenuKey": 45,
+  "patterns": {
+    "gworld": "",
+    "gnames": "",
+    "gobjects": ""
+  },
+  "offsets": {
+    "_comment": "Run GSpots against your game version to get these offsets",
+    "gworld": "0x0",
+    "gnames": "0x0",
+    "gobjects": "0x0",
+    "ue_version": ""
+  }
+}
